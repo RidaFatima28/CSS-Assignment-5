@@ -1,0 +1,620 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.bar{
+    display: none;
+}
+/* HEADER START */
+.header{
+    display: flex;
+    padding-top: 22px;
+    padding-left: 20px;
+    justify-content: space-between;
+    /* padding-right: 50px; */
+    /* background-color: transparent; */
+    /* backdrop-filter: blur(8px); */
+    position: fixed;
+   width:100%;
+    min-height: 10vh;
+     animation: background auto linear forwards;
+    animation-timeline: scroll(root);
+    animation-range: 0px 6px;
+    z-index: 1000;
+}
+@keyframes background{
+    from{
+background-color: transparent;
+    }
+    to{
+        background-color: black;
+    }
+}
+nav{
+    /* padding-left: 27vmax; */
+    padding-top: 10px;
+    /* margin-left: 25vmax; */
+    max-width: 100%;
+
+    
+}
+nav a{
+    margin-right: 6vw;
+    font-size: 18px;
+    color:burlywood;
+
+}
+nav a:hover{
+    color: cadetblue;
+}
+.logo{
+    color:rgb(150, 125, 93);
+    /* padding-right: 10em; */
+}
+.half{
+color:rgb(18, 44, 92);
+}
+/* HEADER END */
+
+/* HERO START */
+
+/* HOME START */
+
+
+.home{
+    background-image:linear-gradient(to right,rgba(0,0,0,0.7),rgb(0,0,0,0.7)), url(https://images.squarespace-cdn.com/content/v1/63dde481bbabc6724d988548/22289668-3c26-471f-b74d-946b6d385bfa/Navy+Blue+and+Gold+Bedroom+Ideas);
+     width: 100vw;
+min-height: 100vh;
+background-position: center;
+background-size:cover;
+padding-top: 25vh;
+padding-left: 7vw;
+}
+.htext{
+    font-size: 3vmax;
+    font-weight:900 ;
+    color:antiquewhite;
+}
+.half2{
+    color: rgb(32, 4, 109);
+}
+ .ptext{
+    color: white;
+    /* width: 150ch; */
+    /* padding-right: 650px; */
+    max-width: 50%;
+    word-spacing: 3px;
+    margin-top: -15em;
+    display: flex;
+    align-items: center;
+    /* margin-top: -18vmax; */
+    margin-bottom: 30px;
+
+} 
+.img{
+    width: 400px;
+    height: 420px;
+    margin-left: 55vmax;
+    margin-top: -13vmax;
+    animation:image 1s infinite ease-in-out alternate;
+
+}
+@keyframes image{
+    from{
+     transform: translateY(0);
+    }
+    to{
+      transform: translateY(25px);
+    }
+}
+.btn1{
+margin-right: 15px;
+padding: 20px 40px;
+background-color: transparent;
+border: 1px solid cadetblue;
+border-radius: 5px;
+color: white;
+}
+.btn1:hover{
+    background-color: cadetblue;
+    cursor: pointer;
+}
+.btn2{
+padding: 20px 40px;
+background-color: cadetblue;
+border: 1px solid cadetblue;
+border-radius: 5px;
+color: white;
+
+}
+.btn2:hover{
+    box-shadow: 0px 10px 20px rgb(50, 115, 117);
+    cursor: pointer;
+}
+/* HOME END */
+
+/*ABOUT START */
+.about{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(7, 129, 199);
+    padding-top: 40px;
+    /* position: relative ; */
+}
+.half3{
+    color: antiquewhite;
+}
+.htext2{
+    font-size: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.ptext2{
+    text-align: center;
+    /* padding-bottom: 50px; */
+}
+.img2{
+    animation:image 1s infinite ease-in-out alternate;
+    width: 550px;
+    height: 300px;
+}
+/* .arrow{
+   left: 94%;
+   top: 90%;
+   z-index:  9999;
+   font-size: 40px;
+   position: sticky;
+   color: whitesmoke;
+} */
+ .arrow {
+   position: fixed !important;  
+   right: 20px !important;      
+   bottom: 20px !important;    
+   z-index: 999999 !important;  
+   font-size: 40px;
+   color: whitesmoke;
+ animation: showArrow auto linear forwards;
+   animation-timeline: scroll(root);
+   animation-range: 0px 200px; 
+ }
+ @keyframes showArrow {
+  from {
+    opacity: 0;
+    visibility: hidden; 
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+.inside{
+    display: flex;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+.side{
+    flex-direction: row;
+    margin-top: 4%;
+    margin-left: 50px;
+   
+}
+.side p{
+    padding-bottom: 3%;
+    margin-right: 20px;
+    max-width: 85%;
+
+}
+.side b{
+    margin-bottom: 7px;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    color: rgb(22, 21, 21);
+    padding-bottom: 5px;
+}
+.htext3{
+    font-size: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 30px;
+}
+.half4{
+    color: antiquewhite;
+}
+.ptext3{
+    text-align: center;
+    padding-bottom: 7em;
+}
+.htext4{
+    color: rgb(189, 188, 188);
+    padding-left: 50px;
+   padding-top: 50px;
+}
+.ptext4{
+    text-align: center;
+}
+.img3{
+    animation:image 1s infinite ease-in-out alternate;
+    width: 400px;
+    height: 330px;
+     margin-left: 55vmax;
+    margin-top: -10vmax;
+}
+.ptext5{
+     max-width: 50%;
+    word-spacing: 3px;
+    margin-top: -11em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-left: 50px;
+
+}
+.btn3{
+    margin-left: 3em;
+padding: 20px 40px;
+background-color: transparent;
+border: 1px solid rgb(5, 18, 204);
+border-radius: 5px;
+color: white;
+}
+.btn4{
+padding: 20px 40px;
+margin-left: 2em;
+background-color: rgb(3, 7, 206);
+border: 1px solid rgb(6, 58, 201);
+border-radius: 5px;
+color: white;
+}
+.btn3:hover{
+    background-color: rgb(5, 8, 206);
+    cursor: pointer;
+}
+.btn4:hover{
+    box-shadow: 0px 10px 20px rgb(6, 15, 66);
+    cursor: pointer;
+}
+.bttn{
+    padding-bottom: 10em;
+}
+.imgmove{
+    background-image: linear-gradient( 135deg,  rgba(191, 149, 63, 0.4) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(170, 119, 28, 0.4) 100% ), url(https://img.magnific.com/free-photo/observation-urban-building-business-steel_1127-2397.jpg?semt=ais_hybrid&w=740&q=80);
+     background-size: cover;
+  background-position: center;
+   background-attachment: fixed; 
+    width: 100vw;
+min-height: 300px;
+}
+.htext5{
+    color:aliceblue;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 2.7em;
+}
+.ptext6{
+    text-align: center;
+    color: antiquewhite;
+}
+.imgmove .icon{
+    display: flex;
+    flex-direction: column;
+}
+.lover{
+ font-size: 4em;
+    color: white;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.count{
+      color: white;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.response{
+      color: white;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.count span{
+     display: block;       
+  height: 50px;          
+  line-height: 50px;    
+  font-size: 2.5rem;
+  font-weight: bold;
+     animation: countUp 2s cubic-bezier(0.1, 1, 0.1, 1) infinite;
+}
+.cont1, .cont2, .cont3 {
+  height: 50px;          
+  overflow: hidden;      
+  display: block;    
+
+}
+@keyframes countUp{
+     0% {
+    transform: translateY(0); 
+  }
+  100%{
+    transform: translateY(-200px); 
+  }
+}
+.color{
+    padding-top: 30px;
+}
+.htext6{
+    color: black;
+    text-align: center;
+    font-size: 3em;
+}
+.half5{
+    color: white;
+}
+.ptext7{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 5em;
+}
+.last{
+    background-color: blue;
+    padding-top: 4em;
+}
+.btn5{
+    margin: auto;
+padding: 20px 40px;
+background-color: transparent;
+border: 1px solid darkblue;
+border-radius: 5px;
+color: white;
+margin-left: 50%;
+}
+.btn6{
+padding: 20px 40px;
+margin-left: 2em;
+background-color: darkblue;
+border: 1px solid rgb(10, 71, 238);
+border-radius: 5px;
+color: white;
+}
+.btn6:hover{
+    box-shadow: 0px 10px 20px rgb(11, 20, 73);
+    cursor: pointer;
+}
+.btn5:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+.imgmove2{
+     background-image: linear-gradient( 135deg,  rgba(191, 149, 63, 0.4) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(170, 119, 28, 0.4) 100% ), url(https://img.magnific.com/free-photo/observation-urban-building-business-steel_1127-2397.jpg?semt=ais_hybrid&w=740&q=80);
+     background-size: cover;
+  background-position: center;
+   background-attachment: fixed; 
+    width: 100vw;
+min-height: 300px;
+}
+.htext7{
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    padding-top: 30px;
+}
+.ptext8{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    width: 50%;
+    margin-left: 25%;
+}
+.btn7{
+padding: 20px 40px;
+background-color: cadetblue;
+border: 1px solid cadetblue;
+border-radius: 5px;
+color: white;
+margin-left: 40%;
+margin-top: 30px;
+}
+.btn7:hover{
+    box-shadow: 0px 10px 20px rgb(50, 115, 117);
+    cursor: pointer;
+}
+
+    
+/* ABOUT END */
+
+
+
+/* GALLERY START */
+.gallery{
+    background-color: cornflowerblue;
+    width: 100vw;
+    min-height: 100vh;
+}
+.gallery h1{
+    text-align: center;
+    padding-top: 2em;
+    font-size: 2.7em;
+}
+.gallery i{
+    color: aliceblue;
+}
+.clippath{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    padding: 5em 2em;
+}
+.octagon {
+     width: 200px;
+  height: 200px;
+  float: left;
+  position: relative;
+  background-color: rgb(240, 235, 235);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    border: 7px groove black;
+    transform: rotate(45deg);
+  transition: all 0.3s ease;
+
+}
+.octagon img{
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: rotate(-45deg);
+  position: absolute;
+  transition: all 0.3s ease;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+   .octagon:hover img{
+  transform: scale(1.2)  rotate(-45deg);
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+  overflow: visible;
+  cursor: pointer;
+}
+    /* GALLERY END */
+
+    /* CONTACT START */
+    .contact{
+        width: 100vw;
+       min-height: 100vh;
+        background-image:linear-gradient(to right,rgba(0,0,0,0.7),rgb(0,0,0,0.7)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5cbReM0Vit_dcDC90eHnr6GtFQ83789CLlqxGNixfKw&s=10);
+        background-position: center;
+        background-size:cover;
+        display: flex;
+        justify-content: center;
+        padding-top: 7em;
+    }
+    .message{
+        width:400px ;
+        height: 480px;
+        background-color: darkblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 1em;
+    }
+    .contactus{
+        height: 480px;
+        width: 400px;
+        background-color: white;
+        padding: 0 3em 5em 3em;
+         display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .message h1{
+color: white;
+font-size: 2em;
+    }
+    .message input,textarea{
+        border: none;
+        outline: none;
+        color: lightslategray;
+        border-bottom: 1px solid grey;
+        text-decoration: none;
+        padding: 1em 0;
+        margin-bottom: 1.2em;
+        background-color: transparent;
+        width: 90%;
+    }
+    .message button{
+        padding: 20px 40px;
+        color: white;
+        background-color: blue;
+        border: 1px solid blue;
+    }
+    .message button:hover{
+        box-shadow: 0px 10px 20px rgb(17, 42, 187);
+    cursor: pointer;
+    }
+    .contact h1{
+        font-size: 2em bold;
+    }
+    .contact i{
+        padding-right: 2em;
+        font-size: medium;
+    }
+    .contact p{
+        font-size: small;
+    }
+    /* CONTACT END */
+
+/* HERO END */
+
+/* FOOTER START */
+.footer{
+    width: 100%;
+   min-height:50vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5em;
+    padding-right: 5em;
+background-color: black;
+color: white;
+}
+.footer i{
+    color: blue;
+    padding-right: 2px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 1.5em;
+}
+.links,.services,.info,.follow{
+    display: flex;
+    flex-direction: column;
+}
+ a span:hover{
+    padding-left: 2em;
+    cursor: pointer;
+}
+.padd:hover{
+    padding-left: 5px;
+}
+.footer h1{
+    padding-bottom: 2em;
+}
+.info{
+    font-weight: lighter;
+}
+
+
+/* FOOTER END */
+
+/*CREADIT START  */
+.empty{
+    width: 100vw;
+    height: 30px;
+    background-color: white;
+}
+.creat{
+    width: 100vw;
+    min-height: 50px;
+    text-align: center;
+    font-size: 2em;
+    background-color: black;
+    color: white;
+    padding-top: 0.3em;
+}
+.name{
+    color: blue;
+}
+/*CREADIT END */
+
+
+
+
+
+

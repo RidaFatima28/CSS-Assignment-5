@@ -1,0 +1,262 @@
+@media(max-width:1080px){
+.header{
+     width: 100%;
+      margin:0;
+      padding: 0;
+        object-fit: contain;
+        box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+}
+@media(max-width:940px){
+.img{
+    margin-left:45vmax ;
+}
+.ptext{
+    margin-top: -19em;
+}
+.img3{
+    width: 380px;
+    margin-top: -5vmax;
+}
+.ptext5{
+    margin-top: -17em;
+}
+}
+@media(max-width:850px){
+.bar{
+    display:block;
+    color: white;
+    font-size: 2em;
+    padding-right: 100px;
+}
+.bar:hover{
+    width: 200px;
+    height: 500px;
+    background-color: black;
+    overflow-x: hidden;
+}
+.menu{
+    position: relative;
+}
+nav{
+    display: none;
+}
+.bar:hover~nav{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 200px;
+    color: white;
+    position: absolute;
+    top:50px;
+    z-index: 1;
+    left: 20%;
+}
+}
+@media(max-width:830px){
+    .img{
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 50%;
+    }
+    .ptext{
+        margin-top: -20em;
+        max-width: 70%;
+        text-align:center;
+        padding-left: 8em;
+    }
+    .htext{
+        font-size: 2em;
+    }
+    .home{
+        text-align: center;
+    }
+    .inside{
+        flex-direction: column;
+    }
+    .img3{
+        margin-left: 0;
+        margin-top: 0;
+        margin-left: 30%;
+    }
+    .ptext5{
+        margin-top: 3em;
+        text-align: center;
+        padding-left: 30%;
+        max-width: 80%;
+    }
+    .htext4{
+        text-align: center;
+    }
+    .ptext3{
+        padding-bottom: 4em;
+    }
+    .btn3{
+        margin-left: 30%;
+    }
+    .btn5{
+        margin-left: 10%;
+    }
+    .icon{
+        padding-bottom: 30px;
+    }
+}
+@media(max-width:750px){
+    .contact{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ptext{
+        margin-top: -16em;
+    }
+    .img2{
+        width: 430px;
+    }
+    .creat{
+        font-size: 1.5em;
+    }
+
+}
+@media(max-width:590px){
+    .ptext{
+        margin-top: -12em;
+    }
+    .img3{
+       margin-left: 10%; 
+    }
+    .btn3{
+        margin-left: 10%;
+    }
+    .ptext5{
+        padding-left: 10%;
+    }
+}
+@media(max-width:480px){
+    .ptext{
+        max-width: 100%;
+        margin-left: -20%;
+        margin-top: -8em;
+    }
+    .img2{
+        max-width: 400px;
+        padding: 2px;
+    }
+    .imgmove2{
+        padding-bottom: 30px;
+    }
+    .btn7{
+        margin-left: 30%;
+    }
+    .btn1{
+        margin-left:-15% ;
+    }
+    .img3{
+        width: 370px;
+        margin-left: 5%;
+    }
+    .btn3{
+        margin-left: 2%;
+    }
+    .btn5{
+        margin-left: 2%;
+    }
+    .message{
+        width: 100vw;
+    }
+    .contactus{
+        width: 100vw;
+    }
+    .side{
+        margin-bottom: 30px;
+    }
+
+}
+@media(max-width:400px){
+    .img2{
+        width: 370px;
+    }
+    .btn4{
+        margin-left: 2%;
+    }
+    .btn6{
+        margin-left: 2%;
+    }
+}
+@media(max-width:390px){
+    .bttn{
+        display: flex;
+        flex-direction: column ;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .img2{
+        padding: 0;
+        font-size: 320px;
+        font-weight: lighter;
+        margin-left:-10%;
+    }
+    .img{
+        margin-left:-15%;
+    }
+     .img3{
+        margin-left:-10%;
+    }
+    .bar:hover~nav{
+        width: 200px;
+    }
+}
+@media(max-width:350px){
+    .img2{
+        max-width: 100%;
+        margin-left: -0;
+        object-fit: contain;
+    }
+     .img3{
+      max-width: 100%;
+      margin-left: -0;
+        object-fit: contain;
+
+    }
+    .img{
+        max-width: 100%;
+      margin-left: -0;
+        object-fit: contain;
+    }
+    .htext3{
+        font-size: 2em;
+
+    }
+    .htext4{
+        padding-left: 2%;
+    }
+    .htext6{
+        font-size: 2em;
+    }
+    .bar:hover~nav{
+        width: 270px;
+        margin-left: -12%;
+    }
+    .footer{
+     padding-right: 0;
+     width: 100vw;
+    }
+    .btn5{
+        margin-left: 15%;
+        margin-bottom: 7px;
+    }
+    .btn1{
+        margin-left: 10%;
+        margin-bottom: 7px;
+    }
+    .btn3{
+        margin-bottom: 7px;
+    }
+}
